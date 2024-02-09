@@ -7,7 +7,7 @@ First, fork this repository and clone it to your local machine.
 Then, run the development server:
 
 ```bash
-npm install
+
 
 npm run dev
 ```
