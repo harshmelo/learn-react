@@ -9,10 +9,12 @@ import Gallery from './components/whyState'
 import Form from './components/snapshot2'
 import FeedbackForm from './qcomps/thankYouCrash'
 import Counter from './qcomps/snapshot'
+import RequestTracker from './qcomps/shoppingCart'
+import Scoreboard from './qcomps/updObjectsForm'
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Form />
+        <Scoreboard />
     </div>
   )
 }
